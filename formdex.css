@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+    color: #243e63;
+    list-style: none;
+}
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px black solid;
+    display: flex;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+.form__style {
+    border: 1px yellowgreen solid;
+    border-radius: 25px;
+    width: 100%;
+}
+.no-border {
+    border: none;
+}
+.corners {
+    border-radius: 25px;
+}
+
+.btn__primary {
+    background-color: blue;
+    color: white;
+    padding: 12px 32px;
+    margin: 4px;
+    border-radius: 25px;
+}
+
+.left40 {
+    width: 40%;
+    border: 1px blue solid;
+}
+.right60 {
+    width: 60%;
+    border: 1px orange solid;
+}
+.fitParent {
+    width: 100%;
+}
