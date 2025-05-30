@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+    color: #243e63;
+}
+
+body {
+    padding: 16px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn__attention {
+    background-color: #6415ff;
+    color: #f7fafc;
+    padding: 12px 32px;
+    border-radius: .5rem;
+
+
+}
+
+/* NAV STYLING */
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.nav__brand {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.nav__brand--img {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+}
+
+/* NAV__MENU */
+.nav__menu {
+    background-color: aquamarine;
+    display: flex;
+    height: ;
+}
+.nav__menu--li {
+    font-size: 14px;
+    margin: 0 24px;
+    padding: 0 0 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#landing {
+    background-color: aqua;
+}
+
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color:beige;
+}
